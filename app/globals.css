@@ -61,18 +61,55 @@ body {
   transition: all 0.6s ease;
 }
 
+@media (max-width: 430px) {
+.button {
+  background-color: #CABA9C;
+  box-shadow: 0px 2px 5px #8A6240;
+  color: #e8e8e8;
+  width: 3.5em;
+  height: 2.9em;
+  border: #8A6240 0em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+.button svg {
+  width: 1.6em;
+  margin: -0.8em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+.hide{
+  display: none;
+}
+}
+@media (min-width: 430px) {
+  .button {
+    background-color: #CABA9C;
+    box-shadow: 0px 2px 5px #8A6240;
+    color: #e8e8e8;
+    width: 6.5em;
+    height: 2.9em;
+    border: #8A6240 0em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+}
+
 .button:hover {
   color: #fff;
   background-color: #8A6240;
   cursor: pointer;
-}
-
-.button svg {
-  width: 1.6em;
-  margin: -0.2em 0.8em 1em;
-  position: absolute;
-  display: flex;
-  transition: all 0.6s ease;
 }
 
 .button:hover svg {
