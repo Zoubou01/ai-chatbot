@@ -73,6 +73,7 @@ export default function ChatBot() {
             {messages.map((message, index) => (
                   <div
                     key={index}
+                    style={{color:'black'}}
                     className={`${
                       message.role === 'assistant' ? 'assistantMessage' : 'userMessage'
                     }`}
