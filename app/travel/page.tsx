@@ -48,7 +48,7 @@ export default function ChatBot() {
   const { messages, input, setInput, handleSubmit } = useChat()
 
   return (
-    <section style={{height: '100vh' , maxHeight:'100%', maxWidth:'100%', overflow:'hidden', display:'flex', alignItems:'center', textAlign: 'center', padding: '2rem' , backgroundColor: '#102820'}}>
+    <section style={{height: '100svh' , maxHeight:'100%', maxWidth:'100%', overflow:'hidden', display:'flex', alignItems:'center', textAlign: 'center', padding: '2rem' , backgroundColor: '#102820'}}>
 <div className="card">
         <div className="tools">
             <div className="circle">
