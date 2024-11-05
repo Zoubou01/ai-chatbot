@@ -1,7 +1,7 @@
 
 const Travel = () => {
   return(
-      <section className="travel-section" style={{height: '100vh'}}>
+      <section className="travel-section" style={{height: '100svh'}}>
       
 
       <div style={{display:'flex', flexDirection:'column' , alignItems:'center'}}>
